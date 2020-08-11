@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MenuGuidedXXXX</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">XXXX_Ninna Novila</string>
+    <string name="nav_header_subtitle">ninna.novila@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_widget">Widget</string>
+    <string name="action_dialog">Dialog</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_widget">Widget</string>
+    <string name="menu_dialog">Dialog</string>
+    <string name="exit">Exit</string>
+    <string name="send">Send</string>
+    <string name="first_title">MenuGuidedXXXX_Ninna Novila</string>
+    <string name="hint_widget">Please fill this widget!</string>
+    <string name="hint_first_name">Your first name</string>
+    <string name="hint_last_name">Your last name</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ninnanovila.menuguidedxxxx.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_widget"
+        android:name="com.ninnanovila.menuguidedxxxx.ui.widget.WidgetFragment"
+        android:label="@string/menu_widget"
+        tools:layout="@layout/fragment_widget" >
+        <action
+            android:id="@+id/action_nav_widget_to_nav_dialog"
+            app:destination="@id/nav_dialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_dialog"
+        android:name="com.ninnanovila.menuguidedxxxx.ui.dialog.DialogFragment"
+        android:label="@string/menu_dialog"
+        tools:layout="@layout/fragment_dialog" />
+</navigation>
