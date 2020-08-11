@@ -1,0 +1,32 @@
+<resources>
+    //TO DO
+    //Ganti XXXX menjadi NPM
+    <string name="app_name">Layout Guided XXXX</string>
+    <string name="relative_layout">Relative Layout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="frame_layout">Frame Layout</string>
+
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+
+    <string name="profile_image">Profile Image</string>
+    //TO DO
+    //Ganti dengan nama panggilan dan nama panjang masing-masing
+    //Untuk lorem_ipsum bisa cari di google
+    <string name="nickname">Ninna</string>
+    <string name="full_name">Ninna Novila</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</string>
+
+    <string name="two_wheeler_picture">Two Wheeler Picture</string>
+    <string name="close_picture">Close Picture</string>
+    <string name="two_wheeler_not_allowed">Two Wheeler Not Allowed</string>
+    <string name="layout_guided_xxxx">Layout Guided XXXX</string>
+</resources>

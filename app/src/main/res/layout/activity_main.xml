@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/general_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/layout_guided_xxxx"
+        style="@style/Title"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/linear_layout"
+            android:layout_marginVertical="@dimen/vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/linear_layout"/>
+        <RadioButton
+            android:id="@+id/constraint_layout"
+            android:layout_marginVertical="@dimen/vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/constraint_layout"/>
+        <RadioButton
+            android:id="@+id/frame_layout"
+            android:layout_marginVertical="@dimen/vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/frame_layout"/>
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fragment_layout"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
